@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="junit-4.3" level="project" />
+    <orderEntry type="library" name="lombok-1.16.10" level="project" />
   </component>
 </module>

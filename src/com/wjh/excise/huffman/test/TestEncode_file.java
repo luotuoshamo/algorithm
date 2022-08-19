@@ -35,10 +35,10 @@ public class TestEncode_file {
 		System.out.println(text);
 
 		Map<Character, String> hfmDictMap = haffmanEncode.getHfmDictMap(text);
-		System.out.println("hfm dict£º" + hfmDictMap);
+		System.out.println("hfm dictï¼š" + hfmDictMap);
 		String newText = haffmanEncode.getNewText(text);
-		System.out.println("after encoding£º" + newText);
-		System.out.printf("compression radio£º%.2f",
+		System.out.println("after encodingï¼š" + newText);
+		System.out.printf("compression radioï¼š%.2f",
 				haffmanEncode.getCompressionRadio(text, newText));
 
 		bw.write(newText);
